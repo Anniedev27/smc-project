@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index2.html">
+    <link rel="stylesheet" href="index.html">
+    <style>
+        input{
+            padding-left: 20px; 
+            margin-left: 20px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 5px 10px rgba(156, 153, 147, 0.2);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid custom-container">
+
+        <nav>
+          <div class="navbar">
+            
+            <div class="logo">
+              <div>
+                <img class="logo-image" src="images/smc-letter-logo-design-white.jpg" alt="" >
+              </div>
+              <div>
+                <p class="logo-text">SMC <span class="logo-text-span">Research</span></p>
+              </div>
+                
+            </div> 
+    
+            <div class="search-input">
+              <div class="input">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <div>
+                <img class="profile-image" src="images/images.jpeg" alt="">
+                <button class="article-btn" >Write article</button>
+              </div>
+            </div>
+            
+          </div>
+        </nav>
+    
+        <div class="row">
+    
+            <!-- Left Sidebar (Dropdown) -->
+          <div class="col-md-3 left-sidebar">
+            <div>
+                <a class="dropdown-item" href="index.html"><img class="dropdown-icons" src="images/house-door.svg" alt=""> Dashboard</a>
+                <a class="dropdown-item" href="index3.html"><img class="dropdown-icons" src="images/file-text-fill.svg" alt=""><span class="dropdown-span">Articles</span></a>
+                <a class="dropdown-item" href="index4.html"><img class="dropdown-icons" src="images/card-list.svg" alt=""><span class="dropdown-span">Tasks</span></a>
+                <a class="dropdown-item" href="#"><img class="dropdown-icons" src="images/chat-left-text.svg" alt=""><span class="dropdown-span">Messages</span> <button class="inbox">20</button></a>
+                <a class="dropdown-item" href="#"><img class="dropdown-icons" src="images/activity.svg" alt=""><span class="dropdown-span">Messages</span></a>
+                <a class="dropdown-item" href="#"><img class="dropdown-icons" src="" alt=""><span class="dropdown-span">Rankings</span></a>
+                <a class="dropdown-item" href="#"><img class="dropdown-icons" src="images/wallet2.svg" alt=""><span class="dropdown-span">Earnings</span></a>
+                <a class="dropdown-item" href="#"><img class="dropdown-icons" src="images/person.svg" alt=""><span class="dropdown-span">Profile</span></a> 
+            </div>
+          </div>
+    
+            <!-- main section content -->
+            <div class="col-md-9 main-content">
+    
+              <div class="grid-item">
+                <div style="display: block;">
+                    <h2>Articles</h2>
+                    <p>List of all Articles recorded</p>
+                </div>
+              </div>
+    
+              <div class="column">
+                    <div class="table-top">
+                        <input type="text" placeholder="Search Articles">
+                      <button style="margin-left: 45rem;" class="btn btn-dark" type="button">Sort by <img style="background-color: #fff;" src="images/chevron-down.svg" alt=""></button>
+                    </div>
+                    <div>
+                      <div class="table-container">
+                        <table class="custom-table">
+                          <thead>
+                            <tr>
+                                <th>TITLE</th>
+                                <th>DATE CREATED</th>
+                                <th>STATUS</th>
+                                <th>NUMBERS OF VIEWS</th>
+                                <th>EARNINGS</th>
+                                <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <td>Integrating AI to into the blockchain world</td>
+                                <td>Sep 20, 2023, 10:30am</td>
+                                <td><button type="button" class="btn btn-outline-primary">Pending</button></td>
+                                <td>200 </td>
+                                <td>2000</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Integrating AI to into the blockchain world</td>
+                                <td>Sep 20, 2023, 10:30am</td>
+                                <td><button type="button" class="btn btn-outline-success">Published</button></td>
+                                <td>200 </td>
+                                <td>2000</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Integrating AI to into the blockchain world</td>
+                                <td>Sep 20, 2023, 10:30am</td>
+                                <td><button type="button" class="btn btn-outline-danger">Declined</button></td>
+                                <td>200 </td>
+                                <td>2000</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Integrating AI to into the blockchain world</td>
+                                <td>Sep 20, 2023, 10:30am</td>
+                                <td><button type="button" class="btn btn-outline-success">Published</button></td>
+                                <td>200 </td>
+                                <td>2000</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Integrating AI to into the blockchain world</td>
+                                <td>Sep 20, 2023, 10:30am</td>
+                                <td><button type="button" class="btn btn-outline-success">Published</button></td>
+                                <td>200 </td>
+                                <td>2000</td>
+                                <td>...</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
