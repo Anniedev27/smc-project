@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>smc</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+       body {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        img {
+          width: 50px;
+          height: 50px;
+          margin-bottom: 20px;
+        }
+        .google-logo{
+          width: 20px;
+          height: 20px;
+          margin-top: 30px;
+          margin-right: 15px;
+        }
+        .logo-word {
+          margin-left: 10px;
+          margin-top: 10px;
+          font-weight: bolder;
+          font-size: 20px;
+        }
+
+        .form-top {
+          display: flex;
+        }
+        .form-top-p {
+          margin-left: 60px;
+          margin-top: 10px;
+          font-size: 12px;
+          color: #888;
+        }
+        .welcome {
+          font-size: 18px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #820202, #9322cf, #960925);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .btn-google{
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          margin-top: 50px;
+          border: none;
+          border-style: none;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-items: center;
+          justify-content: center;
+          font-weight: bold;
+          color: #888;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card p-4">
+          <div class="form-top">
+            <img src="images/smc-letter-logo-design-white.jpg" alt="">
+            <p class="logo-word">SMC</p>
+            <p class="form-top-p" ><span class="welcome">WELCOME</span> <br>Please enter your details to continue</p>
+          </div>
+            
+            <form id="signupForm">
+                <div class="form-group">
+                  <label for="signupFirstName">First Name</label>
+                  <input type="text" class="form-control" id="signupFirstName" required>
+                </div>
+                <div class="form-group">
+                  <label for="signupLastName">Last Name</label>
+                  <input type="text" class="form-control" id="signupLastName" required>
+                </div>
+                <div class="form-group">
+                  <label for="signupEmail">Email address</label>
+                  <input type="email" class="form-control" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                  <label for="signupMobile">Mobile Number</label>
+                  <input type="number" class="form-control" id="signupMobile" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" class="form-control" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                  <label for="signupPassword">Confirm Password</label>
+                  <input type="password" class="form-control" id="signupPassword" required>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
+                  <label class="form-check-label" for="rememberMe">Remember Me</label>
+                </div>
+                <a href="index.html"><button type="submit" class="btn btn-primary btn-block">Sign Up</button></a>
+                <button type="button" class="btn-google btn-light btn-block"><img class="google-logo" src="images/google-logo.png" alt=""> Sign up with Google</button>
+            </form>
+
+            <hr>
+
+            <p class="mt-3 text-center">Already have an account? <a href="sing-in.html">Sign In</a></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
